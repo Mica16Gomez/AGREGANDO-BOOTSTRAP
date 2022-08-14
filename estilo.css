@@ -17,6 +17,13 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 200%;
 }
+.container-fluid {
+  transition: width 1s, height 2s, transform 1s;
+}
+.navbar-brand:hover  {
+  transform: rotate(-20deg);
+  
+}
 .mainInicio {
   color: white;
   text-align: center;
@@ -28,7 +35,7 @@ body {
 /* PAGINA NOSOTROS */
   
 .fondoNosotros {
-  background-image: url(./img/dcb6a908-31dd-486b-9ef1-51cad4522b87.jpg);
+  background-image: url(../img/dcb6a908-31dd-486b-9ef1-51cad4522b87.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
@@ -68,7 +75,7 @@ body {
 /* EVENTOS */
 
 .bodyEventos {
-  background-image: url(./img/Weird\ Animated\ Gifs.gif);
+  background-image: url(../img/Weird\ Animated\ Gifs.gif);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
